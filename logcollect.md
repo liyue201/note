@@ -1,6 +1,6 @@
 ### Go日志收集ElasticSearch+Kibana
 ELK是一套经典的日志收集解决方案，这里没有使用L（Logstash），因为我们的Go服务是用k8s编排，跑在docker中的。
-我们使用go的日志库![logrus](https://github.com/sirupsen/logrus)和插件![elogrus.v2](https://github.com/liyue201/elogrus.v2)将日志直接输出到ElasticSearch
+我们使用go的日志库![logrus](https://github.com/sirupsen/logrus)和插件![elogrus.v2](https://github.com/liyue201/elogrus.v2)将日志直接输出到ElasticSearch。
 
 ### 主机
 host: 172.13.31.163
