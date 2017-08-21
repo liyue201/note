@@ -45,4 +45,4 @@ docker run -d -p 15892:3000 \
 -e INFLUXDB_PASS=test123 \
 --name grafana grafana/grafana
 ```
-打开Grafana的页面 ![http://host2:15892](http://host2:15892])，通过admin/admin登录，设置数据源，创建dashborad等，参考网上的配置。
+打开Grafana的页面 ![http://host2:15892](http://host2:15892])，通过admin/admin登录，设置数据源，创建dashboard等，参考网上的配置。
