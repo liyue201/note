@@ -43,9 +43,9 @@ docker run -d --name kibana -e ELASTICSEARCH_URL=http://172.13.31.163:9200 -p 56
 package main
 
 import (
-	"github.com/Sirupsen/logrus"
-	"gopkg.in/sohlich/elogrus.v2"
-	"gopkg.in/olivere/elastic.v5"
+	"github.com/sirupsen/logrus"
+	"github.com/liyue201/elogrus.v2"
+	"github.com/liyue201/elastic.v5"
 )
 
 func main() {
