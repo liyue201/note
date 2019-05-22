@@ -21,6 +21,17 @@ $ host1=10.102.20.135
 $ host2=10.102.20.136
 $ host3=10.102.20.137
 ```
+
+关闭防护墙
+```
+$ firewall-cmd --list-ports
+$ firewall-cmd --permanent --add-port=7000/tcp && \
+  firewall-cmd --permanent --add-port=7001/tcp && \
+  firewall-cmd --permanent --add-port=17000/tcp && \
+  firewall-cmd --permanent --add-port=17001/tcp && \
+  firewall-cmd --reload
+```
+
 安装gcc
 ```
 $ yum -y install gcc
