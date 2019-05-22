@@ -1,4 +1,4 @@
-# practice
+# 笔记
 
 * [k8s集群监控cAdvisor+InfluxDB+Grafana](health.md)
 
