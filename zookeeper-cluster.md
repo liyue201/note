@@ -1,5 +1,5 @@
 ### 使用docker部署zookeeper集群
-操作系统： centos6.4
+操作系统：centos7.4
 
 三台主机：
 - host1： 10.102.20.124
