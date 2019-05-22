@@ -13,7 +13,7 @@
 docker run -d -p 18083:8083 -p 18086:8086 -v /var/influxdb:/data --name influxdb tutum/influxdb
 ```
 
-打开InfluxDB的管理页面 ![http://host2:18083](http://host2:18083])，创建账test和密码test123，创建数据库cadvisor
+打开InfluxDB的管理页面 [http://host2:18083](http://host2:18083])，创建账test和密码test123，创建数据库cadvisor
 
 
 ### 安装cAdvisor
@@ -31,7 +31,7 @@ google/cadvisor:latest \
 -storage_driver_db=cadvisor \
 -storage_driver_host=172.13.31.163:18086 
 ```
-打开cAdvisor的页面 ![http://host1:18516](http://host1:18516])，可以看到服务器运行状况。
+打开cAdvisor的页面 [http://host1:18516](http://host1:18516])，可以看到服务器运行状况。
 
 
 ### 安装Grafana
@@ -45,4 +45,4 @@ docker run -d -p 15892:3000 \
 -e INFLUXDB_PASS=test123 \
 --name grafana grafana/grafana
 ```
-打开Grafana的页面 ![http://host2:15892](http://host2:15892])，通过admin/admin登录，设置数据源，创建dashboard等，参考网上的配置。
+打开Grafana的页面 [http://host2:15892](http://host2:15892])，通过admin/admin登录，设置数据源，创建dashboard等，参考网上的配置。
