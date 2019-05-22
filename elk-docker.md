@@ -1,4 +1,4 @@
-### 使用docker-compose按装单机版elasticsearch+kibana
+### 使用docker-compose部署单机版elasticsearch+kibana
 
 操作系统： centos7.4
 
