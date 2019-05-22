@@ -1,6 +1,6 @@
 ### Go日志收集ElasticSearch+Kibana
 ELK(ElasticSearch, Logstash, Kibana)是一套经典的日志收集解决方案，这里没有使用Logstash，因为我们的Go服务是用k8s编排，跑在docker中的。
-我们使用go的日志库![logrus](https://github.com/sirupsen/logrus)和插件![elogrus.v2](https://github.com/liyue201/elogrus.v2)将日志直接输出到ElasticSearch。
+我们使用go的日志库[logrus](https://github.com/sirupsen/logrus)和插件[elogrus.v2](https://github.com/liyue201/elogrus.v2)将日志直接输出到ElasticSearch。
 
 ### 主机
 * host: 172.13.31.163
@@ -10,7 +10,7 @@ ELK(ElasticSearch, Logstash, Kibana)是一套经典的日志收集解决方案�
 ```
 docker run -d  --name elasticsearch -v /var/esdata:/usr/share/elasticsearch/data -p 9200:9200  elasticsearch
 ```
-在浏览器中打开 ![http://host:9200/](http://host:9200/)，看到如下json数据，说明安装成功了。
+在浏览器中打开 [http://host:9200/](http://host:9200/)，看到如下json数据，说明安装成功了。
 
 ```
 {
@@ -35,7 +35,7 @@ docker run -d  --name elasticsearch -v /var/esdata:/usr/share/elasticsearch/data
 docker run -d --name kibana -e ELASTICSEARCH_URL=http://172.13.31.163:9200 -p 5601:5601 kibana
 ```
 
-打开Kibana的页面 ![http://host:5601](http://host:5601])。
+打开Kibana的页面 [http://host:5601](http://host:5601])。
 
 ### 编写测试代码
 
