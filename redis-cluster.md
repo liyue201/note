@@ -232,7 +232,7 @@ $ redis-trib.rb add-node --slave --master-id 1ad034189f9d0052718cc8efec569242e63
 
 检查集群状态
 ```
-$ redis-trib.rb check ${p1}:7000
+$ redis-trib.rb check ${host1}:7000
 >>> Performing Cluster Check (using node 10.102.20.137:7000)
 M: 1ad034189f9d0052718cc8efec569242e634cef3 10.102.20.137:7000
    slots:10923-16383 (5461 slots) master
