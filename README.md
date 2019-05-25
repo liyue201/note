@@ -10,4 +10,11 @@
 
 * [docker-compose部署单机版elasticsearch+kibana](elk-docker.md)
 
+* [k8s 3 master + 1 haproxy + n worker集群部署](k8s-cluster.md)
+
+* [k8s通过ingress暴露dashboard部署](k8s-dashboard.md)
+
+
+
+
 
