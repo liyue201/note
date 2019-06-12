@@ -134,3 +134,32 @@ $(document).ready(function () {
     alert('RUNOOB');
 });
 ```
+
+
+Markdown 链接
+链接使用方法如下：
+
+`[链接名称](链接地址)`
+
+或者
+
+`<链接地址>`
+例如：
+
+这是一个链接 [github.com](https://github.com)  
+或者  
+<https://github.com>
+
+
+Markdown 图片
+Markdown 图片语法格式如下：
+
+`![alt 属性文本](图片地址)`     
+或者  
+`![alt 属性文本](图片地址 "可选标题")`    
+
+![图标](http://img.mp.itc.cn/upload/20160415/43ba06629ee0493cb6784a7455cb5cc5.jpg)
+
+
+ 
+![图标](http://img.mp.itc.cn/upload/20160415/43ba06629ee0493cb6784a7455cb5cc5.jpg  "图片")
