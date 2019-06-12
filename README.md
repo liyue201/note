@@ -1,4 +1,6 @@
-# 笔记
+# 开发运维笔记
+
+* [markdown常用语法](markdown.md) 
 
 * [k8s集群监控cAdvisor+InfluxDB+Grafana](health.md)
 
@@ -15,6 +17,7 @@
 * [k8s通过ingress暴露dashboard部署](k8s-dashboard.md)
 
 * [Jenkins中使用ansible的坑](ansible.md)
+
 
 
 
