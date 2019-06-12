@@ -14,6 +14,8 @@
 
 * [k8s通过ingress暴露dashboard部署](k8s-dashboard.md)
 
+* [Jenkins中使用ansible的坑](ansible.md)
+
 
 
 
