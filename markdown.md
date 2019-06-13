@@ -117,8 +117,6 @@ Markdown 代码
 
 `printf()` 函数
 
-
-代码区块
 代码区块使用 4 个空格或者一个制表符（Tab 键）。
 实例如下：
 
@@ -126,7 +124,6 @@ Markdown 代码
     $(document).ready(function () {
         alert('RUNOOB');
     });
-
 
 你也可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）：
 ```javascript
