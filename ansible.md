@@ -2,7 +2,7 @@
 
 ##### 问题：
 
-已经在jenkins主机上配置到其他主机的ssh免密登录，执行ansible也正常，但是在jenkins中执行失败。
+已经在jenkins主机上配置到其他主机的ssh免密登录(注意是本地jenkins账号（不是root账号）到远程root账号的免密)，执行ansible也正常，但是在jenkins中执行失败。
 
 ```
 fatal: [192.168.101.231]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Host key verification failed.", "unreachable": true}
