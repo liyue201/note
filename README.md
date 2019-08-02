@@ -18,6 +18,9 @@
 
 * [Jenkins中使用ansible的坑](ansible.md)
 
+* [使用filebeat收集k8s容器日志到elasticsearch](k8s-filebeat.md)
+
+
 
 
 
