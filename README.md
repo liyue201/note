@@ -20,6 +20,8 @@
 
 * [使用filebeat收集k8s容器日志到elasticsearch](k8s-filebeat.md)
 
+* [Go项目的jenkinsfile自动化部署模板](go-jenkins.md)
+
 
 
 
