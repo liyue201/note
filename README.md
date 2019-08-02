@@ -22,6 +22,9 @@
 
 * [Go项目的jenkinsfile自动化部署模板](go-jenkins.md)
 
+* [如何设计一个比特币钱包服务](https://github.com/liyue201/btc-wallet-service-design)
+
+* [Omnilayer协议研究](https://github.com/liyue201/omnilayer-research)
 
 
 
