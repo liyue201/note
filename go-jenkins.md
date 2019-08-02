@@ -1,4 +1,4 @@
-## Go项目的jenkins流水线模板
+## Go项目的jenkinsfile自动化部署模板
 
 一共分成4个步骤
 
