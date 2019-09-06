@@ -26,7 +26,7 @@
 
 * [Omnilayer协议研究](https://github.com/liyue201/omnilayer-research)
 
-* [kubectl实用命令](kubectl.mdd)
+* [kubectl实用命令](kubectl.md)
 
 
 
