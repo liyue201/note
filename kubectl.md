@@ -8,3 +8,12 @@
 ```
  kubectl create configmap config --from-file=license.bin  -o yaml --dry-run >> conf.yaml
 ```
+
+### k8s容器异常退出调试
+有事容器启动时候就挂了，没法进容器中去看。可以使用shell执行死循环方式启动，在进容器启动应用。
+
+```
+command: ["/bin/sh"]
+args: ["-c", "while true; do echo hello; sleep 10;done"]
+
+```
