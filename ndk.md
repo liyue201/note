@@ -1,6 +1,7 @@
 ## Docker编译Android NDK
 
-使用docker来编译android ndk，支持cmake。
+为了不污染宿主机，在CI中使用docker来编译android ndk是最佳选择。为了支持cmake，需要在镜像中安装cmake。
+
 
 #### Dockerfile
 
