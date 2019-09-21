@@ -26,7 +26,9 @@
 
 * [Omnilayer协议研究](https://github.com/liyue201/omnilayer-research)
 
-* [kubectl实用命令](kubectl.md)
+* [k8s相关命令和调试技巧](kubectl.md)
+
+* [Docker编译Android NDK](ndk.md)
 
 
 
