@@ -1,5 +1,7 @@
 ## Docker编译Android NDK
 
+使用docker来编译android ndk，支持cmake。
+
 #### Dockerfile
 
 ```
