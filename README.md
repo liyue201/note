@@ -32,6 +32,9 @@
 
 * [Docker编译Android NDK](ndk.md)
 
+* [Go语言服务中使用机器学习模型](ml_deploy.md)
+
+
 
 
 
