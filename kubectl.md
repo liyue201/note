@@ -20,7 +20,7 @@ args: ["-c", "while true; do echo hello; sleep 10;done"]
 
 ### 查看pod异常重启前的日志
 
-一个pod挂掉之后，之前的输出到控制台的日志可以通过-p查看
+一个pod挂掉之后，之前输出到控制台的日志可以通过-p查看
 ```
  kubectl -n ${namespace} log ${pod_id} -c ${container_name} -p  
 ```
