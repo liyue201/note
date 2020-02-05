@@ -5,8 +5,7 @@
 - host1： 10.102.20.124
 - host2： 10.102.20.125
 - host3： 10.102.20.126
-
-打开防火墙
+关闭相关端口的防火墙
 ```
 $ firewall-cmd --list-ports
 $ firewall-cmd --permanent --add-port=2181/tcp
