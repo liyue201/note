@@ -34,6 +34,7 @@
 
 * [Go语言服务中使用机器学习模型](ml_deploy.md)
 
+* [部署openstreetmap瓦片服务器](osm-tile-server.md)
 
 
 
