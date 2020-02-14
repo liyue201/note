@@ -40,3 +40,11 @@ tiles目录是瓦片数据的缓存目录
 
 ### 参考
 https://github.com/Overv/openstreetmap-tile-server
+
+
+## 服务组件和工具
+- PostGIS： 地图数据库，。 http://download.osgeo.org/postgis/source/postgis-3.0.0.tar.gz
+- osm2pgsql：OSM格式转PG sql工具。 https://github.com/openstreetmap/osm2pgsql.git
+- mod_tile、renderd： 生成瓦片的服务 https://github.com/SomeoneElseOSM/mod_tile.git
+- openstreetmap-carto： 瓦片的样式 https://github.com/gravitystorm/openstreetmap-carto.git 
+- Apache： web服务
