@@ -56,3 +56,24 @@ https://github.com/Overv/openstreetmap-tile-server/issues/21
 https://help.openstreetmap.org/questions/51521/mapnik-and-postgresql-in-differents-servers  
 
 
+
+***
+
+## 部署openmaptiles瓦片服务器
+
+openmaptiles是[Maptiler](https://openmaptiles.com/)公司开发的瓦片服务器，没有开源，但有免费的版本可以使用。openmaptiles比openstreetmap样式更多，而且美观，但是免费版的上面有很多水印。
+
+使用官方的docker镜像部署，外在当前目录作为文件目录。
+
+```
+docker run --name osm -d -v $PWD:/data -p 8080:80 klokantech/openmaptiles-server
+```
+
+启动容器后，打开网页 http://127.0.0.1:8080。  第一次打开网页会提示选择地图区域，配置语言，地图样式等。选择地图区域后，会要求输入一个密钥，已经注册的用户可以获取免费版的密钥。输入密钥后，进入下载进度页面。下载完后进入一个页面，然后点击一种样式进入地图页面。
+
+
+
+
+
+
+
