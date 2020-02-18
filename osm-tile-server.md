@@ -63,7 +63,7 @@ https://help.openstreetmap.org/questions/51521/mapnik-and-postgresql-in-differen
 
 openmaptiles是[Maptiler](https://openmaptiles.com/)公司开发的瓦片服务器，没有开源，但有免费的版本可以使用。openmaptiles比openstreetmap样式更多，而且美观，但是免费版的上面有很多水印。
 
-使用官方的docker镜像部署，外在当前目录作为文件目录。
+使用官方的docker镜像部署，挂载当前目录作为数据目录。
 
 ```
 docker run --name osm -d -v $PWD:/data -p 8080:80 klokantech/openmaptiles-server
