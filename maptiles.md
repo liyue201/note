@@ -3,7 +3,7 @@
 
 ### 下载地图瓦片
 使用全能地图下载器下载地图瓦片
-[](maptiles/001.png)
+![](maptiles/002.png)
 
 ### 配置ngnix
 
@@ -40,7 +40,7 @@ http {
 
 目录E:/map/nginx-1.16.1/images是存放地图的瓦片，注意下面还有几级目录。
 
-[](maptiles/003.png)
+![](maptiles/003.png)
 
 
 修改nginx默认的首页
@@ -91,5 +91,5 @@ http {
 瓦片的地址
 http://127.0.0.1:8080/tiles/gaode/{z}/{x}/{y}.png
 
-[](maptiles/001.png)
+![](maptiles/001.png)
 
