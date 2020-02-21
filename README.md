@@ -36,6 +36,8 @@
 
 * [部署openstreetmap瓦片服务器](osm-tile-server.md)
 
+* [使用ngnix部署百度/高德等离线地图瓦片服务器](maptiles.md)
+
 * [记一次go内存调优](godc.md)
 
 
