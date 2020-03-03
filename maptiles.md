@@ -45,6 +45,92 @@ http {
 
 修改nginx默认的首页
 
+对于百度地图使用
+
+```
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
+    <style type="text/css">
+        body, #mainMap {
+            border: 0px;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            font-size: 13px;
+        }
+    </style>
+    <script src="https://openlayers.org/en/v5.3.0/build/ol.js" type="text/javascript"></script>
+ 
+</head>
+<body>
+ 
+    <div id="mainMap">
+ 
+    </div>
+ 
+</body>
+</html>
+
+<script type="text/javascript">
+    var projection = ol.proj.get("EPSG:3857");
+    var resolutions = [];
+    for (var i = 0; i < 19; i++) {
+        resolutions[i] = Math.pow(2, 18 - i);
+    }
+    var tilegrid = new ol.tilegrid.TileGrid({
+        origin: [0, 0],
+        resolutions: resolutions
+    });
+ 
+    var baidu_source = new ol.source.TileImage({
+        projection: projection,
+        tileGrid: tilegrid,
+        tileUrlFunction: function (tileCoord, pixelRatio, proj) {
+            if (!tileCoord) {
+                return "";
+            }
+            var z = tileCoord[0];
+            var x = tileCoord[1];
+            var y = tileCoord[2];
+ 
+            if (x < 0) {
+              //  x = "M" + (-x);
+            }
+            if (y < 0) {
+             //   y = "M" + (-y);
+            }
+ 
+            return " /tiles/baidu/"+ z + "/" + x + "/" + y + ".png"
+            
+          
+        }
+    });
+ 
+    var baidu_layer = new ol.layer.Tile({
+        source: baidu_source
+    });
+ 
+    var map = new ol.Map({
+        target: 'mainMap',
+        controls: ol.control.defaults().extend([
+               new ol.control.MousePosition({ projection: 'EPSG:4326' })
+        ]),
+        layers: [baidu_layer],
+        view: new ol.View({
+            center: ol.proj.transform([104.06, 30.67], 'EPSG:4326', 'EPSG:3857'),
+            zoom: 4
+        })
+    });
+</script>
+```
+
+对于高德和谷歌地图使用
+
 ```
 
 <!DOCTYPE html>
@@ -89,7 +175,13 @@ http {
 打开 http://127.0.0.1:8080
 
 瓦片的地址
+
+百度地图
+http://127.0.0.1:8080/tiles/baidu/{z}/{x}/{y}.png
+
+高德地图
 http://127.0.0.1:8080/tiles/gaode/{z}/{x}/{y}.png
+
 
 ![](maptiles/001.png)
 
