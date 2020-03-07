@@ -1,14 +1,29 @@
 # 开发运维笔记
 
-* [markdown常用语法](markdown.md) 
+## 开发
+
+* [记一次go内存调优](godc.md)
+
+* [私有仓库中使用go mod](go-mod.md)
+
+* [Go语言服务中使用机器学习模型](ml_deploy.md)
+
+* [如何设计一个比特币钱包服务](https://github.com/liyue201/btc-wallet-service-design)
+
+* [EOS智能合约安全](https://github.com/liyue201/eos-security)
+
+* [Omnilayer协议研究](https://github.com/liyue201/omnilayer-research)
+
+
+## 运维
 
 * [k8s集群监控cAdvisor+InfluxDB+Grafana](health.md)
-
-* [Go日志收集ElasticSearch+Kibana](logcollect.md)
 
 * [3台主机实现3主3从redis集群部署](redis-cluster.md)
 
 * [docker部署zookeeper集群](zookeeper-cluster.md)
+
+* [Go日志收集ElasticSearch+Kibana](logcollect.md)
 
 * [docker-compose部署单机版elasticsearch+kibana](elk-docker.md)
 
@@ -22,23 +37,18 @@
 
 * [Go项目的jenkinsfile自动化部署模板](go-jenkins.md)
 
-* [如何设计一个比特币钱包服务](https://github.com/liyue201/btc-wallet-service-design)
-
-* [EOS智能合约安全](https://github.com/liyue201/eos-security)
-
-* [Omnilayer协议研究](https://github.com/liyue201/omnilayer-research)
-
 * [k8s相关命令和调试技巧](kubectl.md)
 
 * [Docker编译Android NDK](ndk.md)
-
-* [Go语言服务中使用机器学习模型](ml_deploy.md)
 
 * [部署openstreetmap瓦片服务器](osm-tile-server.md)
 
 * [使用ngnix部署百度/高德等离线地图瓦片服务器](maptiles.md)
 
-* [记一次go内存调优](godc.md)
+
+## 杂项
+
+* [markdown常用语法](markdown.md) 
 
 
 
