@@ -92,7 +92,7 @@ make -j 4
 
 在opencv-3.4.9目录中执行
 ```
-docker run --rm -v $PWD:/code -w /code  registry.cn-hangzhou.aliyuncs.com/stirlingx/ndkr16b-sdk25 ./build.sh 
+docker run --rm -v $PWD:/code -w /code  registry.cn-hangzhou.aliyuncs.com/stirlingx/ndkr16b-sdk25 /bin/bash ./build.sh 
 ```
 
 
