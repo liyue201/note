@@ -36,6 +36,11 @@ docker build . -t ndk-r16b
 
 #### 编译
 
+在代码目录执行
+```
+docker run --rm -v $PWD:/code -w /code  ndk-r16b /bin/bash
+```
+
 ```
 ANDROID_NDK_HOME=/home/android-ndk-r16b
 
