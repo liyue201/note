@@ -38,7 +38,7 @@ docker build . -t ndk-r16b
 
 在代码目录执行
 ```
-docker run --rm -v $PWD:/code -w /code  ndk-r16b /bin/bash
+docker run -it --rm -v $PWD:/code -w /code  ndk-r16b /bin/bash
 ```
 
 ```
