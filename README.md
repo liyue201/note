@@ -47,6 +47,7 @@
 
 * [使用ngnix部署百度/高德等离线地图瓦片服务器](maptiles.md)
 
+* [redis数据迁移](redis-migrate.md)
 
 ## 杂项
 
