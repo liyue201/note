@@ -6,6 +6,8 @@
 
 * [私有仓库中使用go mod](go-mod.md)
 
+* [线性回归go语言实现](linear-regression-go.md)
+
 * [Go语言服务中使用机器学习模型](ml_deploy.md)
 
 * [如何设计一个比特币钱包服务](https://github.com/liyue201/btc-wallet-service-design)
