@@ -1,9 +1,9 @@
-### 使用docker-compose部署单机版elasticsearch+kibana
+## 使用docker-compose部署单机版elasticsearch+kibana
 
 操作系统： centos7.4
 
 
-关闭防火墙
+### 关闭防火墙
 ```
 $ firewall-cmd --list-ports
 $ firewall-cmd --permanent --add-port=9200/tcp
@@ -11,26 +11,50 @@ $ firewall-cmd --permanent --add-port=5601/tcp
 $ firewall-cmd --reload
 ```
 
-安装docker
+### 关闭SELinux
+查看SELinux状态：
+
+ ```
+getenforce
+```
+```
+Disabled
+```
+关闭SELinux：
+
+临时关闭（不用重启机器）：
+
+```
+setenforce 0    ##设置SELinux 成为permissive模式
+##setenforce 1 设置SELinux 成为enforcing模式
+ ```
+
+修改配置文件需要重启机器：
+
+修改/etc/selinux/config 文件
+
+将SELINUX=enforcing改为SELINUX=disabled
+
+重启机器即可
+
+
+### 安装docker
 
 ```
 $ yum install docker
 $ service docker start
 ```
 
-安装docker-compose
+## 安装docker-compose
 ```
 $ yum install -y epel-release
 $ yum install -y python-pip
 $ pip install docker-compose
 ```
 
-安装es+kibana
+## 安装es+kibana
 
-在docker-compose.yaml文件的目录下执行
-```
-$ docker-compose up -d 
-```
+新建文件docker-compose.yaml
 
 docker-compose.yaml文件的内容如下：
 
@@ -63,4 +87,9 @@ services:
 networks:
   esnet:
   
+```
+
+在docker-compose.yaml文件的目录下执行
+```
+$ docker-compose up -d 
 ```
