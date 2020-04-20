@@ -54,7 +54,7 @@ $ pip install docker-compose
 
 ### 安装es+kibana
 
-新建挂载目录esdata，并修改权限
+新建es数据挂载目录esdata，并修改权限
 ```
 mkdir esdata
 chomd 777 esdata
