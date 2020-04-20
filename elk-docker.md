@@ -54,16 +54,23 @@ $ pip install docker-compose
 
 ### 安装es+kibana
 
+新建挂载目录esdata，并修改权限
+```
+mkdir esdata
+chomd 777 esdata
+```
+
 新建文件docker-compose.yaml, 文件的内容如下：
 
 ```
 version: '2'
 services:
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.7.1
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.6.2
     container_name: elasticsearch
     hostname: elasticsearch
     privileged: true
+    user: "1000:0"
     environment:
       - discovery.type=single-node
     volumes:
@@ -74,7 +81,7 @@ services:
       - esnet
 
   kibana:
-    image: kibana:6.7.1
+    image: kibana:7.6.2
     container_name: kibana
     ports:
       - 5601:5601
