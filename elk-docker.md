@@ -45,18 +45,16 @@ $ yum install docker
 $ service docker start
 ```
 
-## 安装docker-compose
+### 安装docker-compose
 ```
 $ yum install -y epel-release
 $ yum install -y python-pip
 $ pip install docker-compose
 ```
 
-## 安装es+kibana
+### 安装es+kibana
 
-新建文件docker-compose.yaml
-
-docker-compose.yaml文件的内容如下：
+新建文件docker-compose.yaml, 文件的内容如下：
 
 ```
 version: '2'
