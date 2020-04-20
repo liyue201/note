@@ -3,7 +3,7 @@
 操作系统： centos7.4
 
 
-打开防火墙
+关闭防火墙
 ```
 $ firewall-cmd --list-ports
 $ firewall-cmd --permanent --add-port=9200/tcp
