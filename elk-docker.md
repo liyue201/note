@@ -41,7 +41,7 @@ services:
     image: docker.elastic.co/elasticsearch/elasticsearch:6.7.1
     container_name: elasticsearch
     hostname: elasticsearch
-	privileged: true
+    privileged: true
     environment:
       - discovery.type=single-node
     volumes:
