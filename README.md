@@ -12,6 +12,8 @@
 
 * [如何设计一个比特币钱包服务](https://github.com/liyue201/btc-wallet-service-design)
 
+* [EOS智能合约开发指南（翻译）](https://github.com/liyue201/eos-development-guide)
+
 * [EOS智能合约安全](https://github.com/liyue201/eos-security)
 
 * [Omnilayer协议研究](https://github.com/liyue201/omnilayer-research)
