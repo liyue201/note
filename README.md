@@ -4,6 +4,9 @@
 * [记一次go内存调优](godc.md)
 * [私有仓库中使用go mod](go-mod.md)
 * [Go项目的jenkinsfile自动化部署模板](go-jenkins.md)
+* [线性回归go语言实现](linear-regression-go.md)
+* [Go语言服务中使用机器学习模型](ml_deploy.md)
+* [Go日志收集ElasticSearch+Kibana](logcollect.md)
 
 ## 区块链
 
@@ -15,12 +18,8 @@
 
 * [Omnilayer协议研究](https://github.com/liyue201/omnilayer-research)
 
-## 机器学习
-* [线性回归go语言实现](linear-regression-go.md)
-* [Go语言服务中使用机器学习模型](ml_deploy.md)
 
 ## 运维
-
 
 * [Springboot集成Skywalking agent](springboot_skywalking.md)
 
@@ -29,8 +28,6 @@
 * [3台主机实现3主3从redis集群部署](redis-cluster.md)
 
 * [docker部署zookeeper集群](zookeeper-cluster.md)
-
-* [Go日志收集ElasticSearch+Kibana](logcollect.md)
 
 * [docker-compose部署单机版elasticsearch+kibana](elk-docker.md)
 
