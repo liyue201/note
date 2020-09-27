@@ -1,14 +1,11 @@
 # 开发运维笔记
 
-## 开发
-
+## go
 * [记一次go内存调优](godc.md)
-
 * [私有仓库中使用go mod](go-mod.md)
+* [Go项目的jenkinsfile自动化部署模板](go-jenkins.md)
 
-* [线性回归go语言实现](linear-regression-go.md)
-
-* [Go语言服务中使用机器学习模型](ml_deploy.md)
+## 区块链
 
 * [如何设计一个比特币钱包服务](https://github.com/liyue201/btc-wallet-service-design)
 
@@ -18,10 +15,14 @@
 
 * [Omnilayer协议研究](https://github.com/liyue201/omnilayer-research)
 
-* [Springboot集成Skywalking agent](springboot_skywalking.md)
-
+## 机器学习
+* [线性回归go语言实现](linear-regression-go.md)
+* [Go语言服务中使用机器学习模型](ml_deploy.md)
 
 ## 运维
+
+
+* [Springboot集成Skywalking agent](springboot_skywalking.md)
 
 * [k8s集群监控cAdvisor+InfluxDB+Grafana](health.md)
 
@@ -41,8 +42,6 @@
 
 * [使用filebeat收集k8s容器日志到elasticsearch](k8s-filebeat.md)
 
-* [Go项目的jenkinsfile自动化部署模板](go-jenkins.md)
-
 * [k8s相关命令和调试技巧](kubectl.md)
 
 * [Docker编译Android NDK](ndk.md)
@@ -55,7 +54,7 @@
 
 * [redis数据迁移](redis-migrate.md)
 
-## 杂项
+## 其他
 
 * [markdown常用语法](markdown.md) 
 
