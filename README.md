@@ -18,6 +18,8 @@
 
 * [Omnilayer协议研究](https://github.com/liyue201/omnilayer-research)
 
+* [Awesome filecoin](https://github.com/liyue201/awesome-filecoin)
+
 
 ## 运维
 
