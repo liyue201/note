@@ -56,7 +56,7 @@
 ## 其他
 
 * [markdown常用语法](markdown.md) 
-
+* [linux命令](linux-cmd.md)
 
 
 
