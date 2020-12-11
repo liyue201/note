@@ -77,7 +77,7 @@ docker run -d --name webui -p 3001:3000  garychen/ipfs-webui:latest
 打开web
 http://192.168.3.101:3001
 
-报错，根据提示修改配置 `~/.ipfs/config`,以下3处
+报错，根据提示修改配置 `~/.ipfs/config`,以下4处
 ```
 {
   "API": {
@@ -94,8 +94,8 @@ http://192.168.3.101:3001
   "Addresses": {
     "API": "/ip4/0.0.0.0/tcp/5001",    // 3.这里
     "Announce": [],
-    "Gateway": "/ip4/127.0.0.1/tcp/8080",
-    "NoAnnounce": [],
+    "Gateway": "/ip4/192.168.2.101/tcp/8080",  // 4.这里
+    "NoAnnounce": [], 
     "Swarm": [
       "/ip4/0.0.0.0/tcp/4001",
       "/ip6/::/tcp/4001",
