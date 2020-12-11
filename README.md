@@ -20,6 +20,7 @@
 
 * [Awesome filecoin](https://github.com/liyue201/awesome-filecoin)
 
+* [IPFS私网部署](ipfs.md)
 
 ## 运维
 
