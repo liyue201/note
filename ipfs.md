@@ -86,11 +86,8 @@ http://192.168.3.101:3001
         "PUT",
         "POST"
       ],
-      "Access-Control-Allow-Origin": [  // 2.这里
-        "http://192.168.3.101:3001",
-        "http://localhost:3000",
-        "http://127.0.0.1:5001",
-        "https://webui.ipfs.io"
+      "Access-Control-Allow-Origin": [  
+        "http://192.168.3.101:3001"   // 2.这里
       ]
     }
   },
