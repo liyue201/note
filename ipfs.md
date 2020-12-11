@@ -69,6 +69,10 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm install
 PORT=3001 npm start
 ```
+或者使用docker
+```
+docker run -d --name webui -p 3001:3000  garychen/ipfs-webui:latest
+```
 
 打开web
 http://192.168.3.101:3001
@@ -83,7 +87,7 @@ http://192.168.3.101:3001
         "POST"
       ],
       "Access-Control-Allow-Origin": [  // 2.这里
-        "http://192.168.3.201:3001",
+        "http://192.168.3.101:3001",
         "http://localhost:3000",
         "http://127.0.0.1:5001",
         "https://webui.ipfs.io"
