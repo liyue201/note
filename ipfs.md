@@ -6,8 +6,9 @@
 - C: 192.168.3.103
 
 ### 安装IPFS
-参考： https://docs.ipfs.io/recent-releases/go-ipfs-0-7/install/#linux  
-在3台主机上分别安装IPFS
+参考： https://docs.ipfs.io/recent-releases/go-ipfs-0-7/install/#linux    
+在3台主机上分别安装IPFS  
+ipfs下载地址 https://dist.ipfs.io/go-ipfs/v0.7.0  
 ```
 wget https://dist.ipfs.io/go-ipfs/v0.7.0/go-ipfs_v0.7.0_linux-amd64.tar.gz
 tar -xvzf go-ipfs_v0.7.0_linux-amd64.tar.gz
