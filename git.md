@@ -13,7 +13,7 @@ git config --global --unset http.proxy
 ```
 
 
-###记住用户名和密码
+### 记住用户名和密码
 
 进入项目目录
 ```
@@ -26,4 +26,6 @@ git pull
 git config --global credential.helper wincred
 git credential-manager uninstall
 ```
+
+
 
