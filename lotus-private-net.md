@@ -59,6 +59,13 @@ $ lotus net listen
 /ip6/::1/tcp/42457/p2p/12D3KooWSr6MuGscVkqvrdXjsVDwB7whQbFj94SmzJs6MStdhYsB
 ```
 
+查看钱包
+```
+$ lotus wallet list
+Address                                                                                 Balance                          Nonce  Default  
+f3q3ziuyfbwsw5yxa6tnv4vxejkvqlfbdwib3klyvrbhzamqx2gikafnp6irpfjt25mcyvn36flycfhpdvv37q  49999999.999409530200323975 FIL  5      X 
+```
+
 ### 其他节点
 
 拷贝上面生成的private.car文件到本机，启动节点
@@ -78,6 +85,32 @@ $ lotus net peers
 
 ```
 
+新建钱包地址
+```
+$ lotus wallet new bls
+
+f3slo5iisbjgnndg5gygkpqpfv3xotjjqir4scs7bep5gaxfpgahj4y2bjlk7mjsrm6iomyr3rwfm4onzfkbia
+```
+查看地址余额
+
+```
+$ lotus wallet list
+Address                                                                                 Balance  Nonce  Default  
+f3slo5iisbjgnndg5gygkpqpfv3xotjjqir4scs7bep5gaxfpgahj4y2bjlk7mjsrm6iomyr3rwfm4onzfkbia  0 FIL    0      X  
+```
+
+通过创世节点给新建的地址转账
+```
+$ lotus send f3slo5iisbjgnndg5gygkpqpfv3xotjjqir4scs7bep5gaxfpgahj4y2bjlk7mjsrm6iomyr3rwfm4onzfkbia 1000
+bafy2bzaceanzlldrirt2yo7huslkidzptgyosdww7o3wpubxp3e3puysrf5gm
+```
+
+查看余额变化
+```
+$ lotus wallet list
+Address                                                                                 Balance  Nonce  Default  
+f3slo5iisbjgnndg5gygkpqpfv3xotjjqir4scs7bep5gaxfpgahj4y2bjlk7mjsrm6iomyr3rwfm4onzfkbia  1000 FIL    0      X  
+```
 ### 参考 
 https://docs.filecoin.io/build/local-devnet/#devnet-with-vanilla-lotus-binaries
 
