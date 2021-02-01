@@ -8,7 +8,7 @@
 ```
 git clone https://github.com/blockchain-lib/lotus
 cd lotus 
-git checkout v1.4.1
+git checkout net/private-1.4.1
 make 
 sudo make install
 make lotus-seed
