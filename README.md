@@ -24,6 +24,9 @@
 
 * [零知识证明简单过程](zksnark.md)
 
+* [lotus多节点私有网络部署](lotus-private-net.md)
+
+
 ## 运维
 
 * [Springboot集成Skywalking agent](springboot_skywalking.md)
