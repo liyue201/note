@@ -3,7 +3,7 @@
 
 ### 编译代码
 
-基于官方主网，修改了一些参数，支持2k、256M、32G、64G扇区。
+基于官方主网，修改了一些参数，支持2k、512M、32G、64G扇区。
 
 ```
 git clone https://github.com/blockchain-lib/lotus
