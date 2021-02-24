@@ -50,7 +50,7 @@
 * [k8s通过ingress暴露dashboard部署](k8s-dashboard.md)
 
 
-## 运维
+## 其他
 
 * [Springboot集成Skywalking agent](springboot_skywalking.md)
 
@@ -64,10 +64,11 @@
 
 * [redis数据迁移](redis-migrate.md)
 
-## 其他
-
 * [markdown常用语法](markdown.md) 
+
 * [linux命令](linux-cmd.md)
+
 * [git](git.md)
+
 
 
