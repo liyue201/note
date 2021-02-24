@@ -26,23 +26,6 @@
 
 * [lotus多节点私有网络部署](lotus-private-net.md)
 
-
-## 运维
-
-* [Springboot集成Skywalking agent](springboot_skywalking.md)
-
-* [3台主机实现3主3从redis集群部署](redis-cluster.md)
-
-* [k8s通过ingress暴露dashboard部署](k8s-dashboard.md)
-
-* [Jenkins中使用ansible的坑](ansible.md)
-
-* [部署openstreetmap瓦片服务器](osm-tile-server.md)
-
-* [使用ngnix部署百度/高德等离线地图瓦片服务器](maptiles.md)
-
-* [redis数据迁移](redis-migrate.md)
-
 ## Docker & k8s
 * [Docker编译Android NDK](ndk.md)
 
@@ -63,6 +46,23 @@
 * [k8s相关命令和调试技巧](kubectl.md)
 
 * [k8s 3 master + 1 haproxy + n worker集群部署](k8s-cluster.md)
+
+* [k8s通过ingress暴露dashboard部署](k8s-dashboard.md)
+
+
+## 运维
+
+* [Springboot集成Skywalking agent](springboot_skywalking.md)
+
+* [3台主机实现3主3从redis集群部署](redis-cluster.md)
+
+* [Jenkins中使用ansible的坑](ansible.md)
+
+* [部署openstreetmap瓦片服务器](osm-tile-server.md)
+
+* [使用ngnix部署百度/高德等离线地图瓦片服务器](maptiles.md)
+
+* [redis数据迁移](redis-migrate.md)
 
 ## 其他
 
