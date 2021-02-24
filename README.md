@@ -31,33 +31,38 @@
 
 * [Springboot集成Skywalking agent](springboot_skywalking.md)
 
-* [k8s集群监控cAdvisor+InfluxDB+Grafana](health.md)
-
 * [3台主机实现3主3从redis集群部署](redis-cluster.md)
-
-* [docker部署zookeeper集群](zookeeper-cluster.md)
-
-* [docker-compose部署单机版elasticsearch+kibana](elk-docker.md)
-
-* [k8s 3 master + 1 haproxy + n worker集群部署](k8s-cluster.md)
 
 * [k8s通过ingress暴露dashboard部署](k8s-dashboard.md)
 
 * [Jenkins中使用ansible的坑](ansible.md)
-
-* [使用filebeat收集k8s容器日志到elasticsearch](k8s-filebeat.md)
-
-* [k8s相关命令和调试技巧](kubectl.md)
-
-* [Docker编译Android NDK](ndk.md)
-
-* [Docker编译opencv for Android](ndk-opencv.md)
 
 * [部署openstreetmap瓦片服务器](osm-tile-server.md)
 
 * [使用ngnix部署百度/高德等离线地图瓦片服务器](maptiles.md)
 
 * [redis数据迁移](redis-migrate.md)
+
+## Docker & k8s
+* [Docker编译Android NDK](ndk.md)
+
+* [Docker编译opencv for Android](ndk-opencv.md)
+
+* [docker 安装mongoDb](mongodb.md)
+
+* [docker 安装clickhouse](安装clickhouse.md)
+
+* [docker部署zookeeper集群](zookeeper-cluster.md)
+
+* [docker-compose部署单机版elasticsearch+kibana](elk-docker.md)
+
+* [k8s集群监控cAdvisor+InfluxDB+Grafana](health.md)
+
+* [使用filebeat收集k8s容器日志到elasticsearch](k8s-filebeat.md)
+
+* [k8s相关命令和调试技巧](kubectl.md)
+
+* [k8s 3 master + 1 haproxy + n worker集群部署](k8s-cluster.md)
 
 ## 其他
 
