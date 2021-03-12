@@ -33,7 +33,7 @@
 
 * [docker 安装mongoDb](mongodb.md)
 
-* [docker 安装clickhouse](安装clickhouse.md)
+* [docker 安装clickhouse](clickhouse.md)
 
 * [docker部署zookeeper集群](zookeeper-cluster.md)
 
